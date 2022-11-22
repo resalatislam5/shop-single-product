@@ -55,7 +55,7 @@ const Products = () => {
             <Carousel cols={5} rows={1} gap={10} loop>
                     {
                         [...Array(20)].map( im =><Carousel.Item className='w-40'>
-                            <img className='w-40 p-5 border rounded-lg' width="100%" src={test} alt='' />
+                            <img className='w-40 p-5 border rounded-lg ml-6' width="100%" src={test} alt='' />
                         </Carousel.Item>)
                     }
                 </Carousel>

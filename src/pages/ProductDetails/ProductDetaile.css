@@ -1,0 +1,12 @@
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    --swiper-navigation-color: #000;
+    background-color: #E7E7E7;
+    padding: 30px;
+    border-radius: 10px;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    --swiper-navigation-color: #fff;
+    background-color: #EC6861;
+    padding: 30px;
+    border-radius: 10px;
+}
