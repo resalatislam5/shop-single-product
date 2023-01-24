@@ -6,10 +6,10 @@ const Banner = () => {
             <div className='w-full'>
             <img className='' src={banner} alt="banner" />
             </div>
-            <div className='absolute top-1/3 ml-[5%]'>
-            <h2 className="text-7xl">Premium Electirc <br /> Motor Bike/Scooter</h2>
-                    <p className='py-5 text-[#E7E7E7]'>Tour the city of Dallas on an electric bike & see what the city has to <br /> offer or just rent & go!</p>
-                <div className="">
+            <div className='absolute md:top-1/3 sm:top-[20%] top-[10%] pl-[5%] container'>
+            <h2 className="lg:text-7xl sm:text-4xl text-2xl">Premium Electirc <br /> Motor Bike/Scooter</h2>
+                    <p className='py-5 text-[#E7E7E7] hidden sm:flex'>Tour the city of Dallas on an electric bike & see what the city has to <br /> offer or just rent & go!</p>
+                <div className="mt-3  sm:mt-0">
                 <button className="btn bg-[#EC6861] px-5 text-xl hover:bg-[#f57871]">Shop Now</button>
                 </div>
             </div>

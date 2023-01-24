@@ -5,8 +5,8 @@ import Payment from '../../../assests/Payment.png'
 import support from '../../../assests/Support.png'
 const BannerSupport = () => {
     return (
-        <section className='px-28 py-16 bg-[#F9F9F9]'>
-            <div className="flex justify-between text-[#100707] text-2xl font-semibold">
+        <section className='xl:px-28 px-5 py-16 bg-[#F9F9F9]'>
+            <div className="flex flex-wrap justify-between text-[#100707] text-2xl font-semibold">
                 <div className="flex items-center">
                     <img className='w-28 h-28' src={freeShipping} alt="" />
                     <p>Free Shipping</p>
