@@ -18,7 +18,7 @@ const Home = () => {
             <ElectricBikes />
             <Accessories />
             <OurReviews />
-            {/* <LatestStories /> */}
+            <LatestStories />
         </div>
     );
 };
