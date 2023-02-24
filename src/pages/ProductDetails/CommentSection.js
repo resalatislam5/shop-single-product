@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactStars from 'react-rating-stars-component';
 import { FaPen } from "react-icons/fa";
+import { AiOutlineLike,AiFillLike,AiFillDislike,AiOutlineDislike } from "react-icons/ai";
+import { BsShareFill,BsFillCalendarFill } from "react-icons/bs";
 import { useState } from 'react';
 
 const CommentSection = () => {
@@ -72,6 +74,7 @@ const CommentSection = () => {
                                 <ReactStars
                                     count={5}
                                     value={2}
+                                    edit={false}
                                     size={20}
                                     isHalf={true}
                                     emptyIcon={<i className="far fa-star"></i>}
@@ -83,12 +86,24 @@ const CommentSection = () => {
                         </div>
                         <div className='mt-8'>
                             <h3 className='text-[#100707] text-2xl font-semibold'>Love my bike! I have</h3>
-                            <p className='text-[#100707] text-lg'>Love my bike! I have bad knees and the best thing about it that I didn't expect is how easy the handle throttle makes getting on the bike! Wonderful! I am riding much more frequently than before when I had a regular bike.
-</p>
+                            <p className='text-[#100707] text-lg'>Love my bike! I have bad knees and the best thing about it that I didn't expect is how easy the handle throttle makes getting on the bike! Wonderful! I am riding much more frequently than before when I had a regular bike.</p>
+                            <div className='flex justify-between mx-5'>
+                                <div className='flex gap-5 mt-3'>
+                                    <p className="flex items-center gap-3"><BsShareFill /> Share</p>
+                                    <p className="flex items-center gap-3"><BsFillCalendarFill /> 25 Feb, 2021</p>
+                                </div>
+                                <div className='flex gap-5 items-center'>
+                                    <p className="hidden sm:flex">Was This Review Helpful?</p>
+                                    <p className="flex items-center gap-1"><AiOutlineLike /> <span>3</span></p>
+                                    <p className="flex items-center gap-1"><AiOutlineDislike /> <span>3</span></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-            </div>)
-            }
+            </div>)}
+                    <div className='flex justify-center mt-5'>
+                        <button className="btn bg-[#1A2A49] text-xl hover:bg-[#f57871] border-0 w-60 block " to='/'>Load More</button>
+                    </div>
                  </div>
             </div>
         </div>

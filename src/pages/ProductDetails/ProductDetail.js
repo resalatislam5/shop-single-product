@@ -46,7 +46,7 @@ const ProductDetail = () => {
       >
         {
           [...Array(10)].map(e =><SwiperSlide>
-            <img className="lg:w-[400px] md:w-96 w-80 lg:h-[528px] mx-auto" src="https://swiperjs.com/demos/images/nature-1.jpg" alt=""/>
+            <img className="lg:w-[400px] md:w-96 w-80 lg:h-[528px] mx-auto" src="https://images.pexels.com/photos/2116475/pexels-photo-2116475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""/>
           </SwiperSlide>)
         }
 
@@ -63,7 +63,7 @@ const ProductDetail = () => {
       >
         {
           [...Array(10)].map(e =><SwiperSlide>
-            <img className="lg:w-[180px] w-32 lg:h-[165px]" src="https://swiperjs.com/demos/images/nature-1.jpg" alt=""/>
+            <img className="lg:w-[180px] w-32 lg:h-[165px]" src="https://images.pexels.com/photos/2116475/pexels-photo-2116475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""/>
           </SwiperSlide>)
         }
       </Swiper>
