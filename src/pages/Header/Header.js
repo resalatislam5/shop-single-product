@@ -72,7 +72,7 @@ const Header = () => {
         </div>
       </div>
     </div>
-    <Link to='/' className="btn bg-[#EC6861] px-5 text-xl hover:bg-[#f57871] hidden 2xl:flex">View All Adventures</Link >
+    <Link to='/' className="btn text-white bg-[#EC6861] px-5 text-xl hover:bg-[#f57871] hidden 2xl:flex">View All Adventures</Link >
   </div>
 </div>
       </div>
